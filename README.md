@@ -1,20 +1,23 @@
 # 代码规范
 
 ### 提交规范
-| Logo                    | abbr     | KEY         | Description |
-| ----------------------- | -------- | ----------- |-------------|
-| :book:                  | `:book:` | Docs        | 文档         |
-| :sparkles:              | `:sparkles:` | Feat    | 新特性       |
-| :bug:                   | `:bug:`  | Fix         | 修复bug      |
-| :art:                   | `:art:`  | Style       | 样式修改      |
-| :wrench:                | `:wrench:` | Refactor  | 代码重构      |
-| :recycle:               | `:recycle:` | Test     | 测试         |
-| :building_construction: | `:building_construction:` | Build    | 构建代码      |
+| Logo                    | abbr                        | KEY               | Description |
+| ----------------------- | --------                    | -----------       |-------------|
+| :book:                  | `:book:`                    | Docs:             | 文档         |
+| :sparkles:              | `:sparkles:`                | Feat:             | 新特性       |
+| :rocket:                | `:rocket:`                  | Improved:         | 改进/提升     |
+| :heavy_minus_sign:      | `:heavy_minus_sign:`        | Removed:          | 移除         |
+| :bug:                   | `:bug:`                     | Fixed:            | 修复bug      |
+| :wrench:                | `:wrench:`                  | Modified:         | 修改         |
+| :art:                   | `:art:`                     | Style:            | 样式         |
+| :building_construction: | `:building_construction:`   | Refactor:         | 重构         |
+| :recycle:               | `:recycle:`                 | Test:             | 测试         |
+| :package:               | `:package:`                 | Build:            | 构建         |
 
 示例：
 ```
-格式： [Fix/Logo]_名称/#序号_描述
-实例： [:bug:]_修复#13_顶部导航样式坍塌
+格式： Logo 名称/#序号: 描述
+实例： :bug: Fixed: 修复XXX...
 ```
 
 ### HTML属性顺序及部分属性的命名方法
